@@ -18,11 +18,12 @@ header {
   background-image: url(images/HeaderBackground.png);
   background-repeat: no-repeat;
   background-size: contain;
-  height: 711px;
 }
-
+.header-flex-position {
+  display: flex;
+  justify-content: space-between;
+}
 .logo {
-  float: left;
   background-image: url(images/Logo.png);
   background-repeat: no-repeat;
   background-size: contain;
@@ -33,7 +34,6 @@ header {
 }
 
 .navigation-menu {
-  float: right;
   margin-right: 45px;
   margin-top: 35px;
 
@@ -78,6 +78,7 @@ header {
   width: 320px;
   height: 70px;
   margin-top: 90px;
+  margin-bottom: 145px;
   border-radius: 50px;
   color: white;
   font-size: 20px;
@@ -97,4 +98,253 @@ header {
   background-image: url(images/TitleBar.png);
   background-repeat: no-repeat;
   background-position: center bottom;
+}
+
+.services-list {
+  width: 1215px;
+  margin: 90px auto;
+}
+
+.service {
+  display: inline-block;
+  margin: 0 20px;
+  width: 260px;
+  text-align: center;
+}
+
+.service-shape {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #f5f6f8;
+  margin: 0 auto;
+}
+
+.logo-design {
+  background-image: url(images/LogoDesign.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.web-design {
+  background-image: url(images/WebDesign.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.branding {
+  background-image: url(images/Branding.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.illustrations {
+  background-image: url(images/Illustrations.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.service-name {
+  display: block;
+  font-size: 20px;
+  margin: 20px auto;
+}
+
+.black-line {
+  margin: auto;
+}
+
+.service-description {
+  color: #b6b6b6;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.portfolio {
+  background-color: #f5f6f8;
+}
+
+.portfolio-title {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  background-image: url(images/TitleBar.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+.portfolio-navigation {
+  width: 905px;
+  margin: 40px auto;
+}
+
+.portfolio-navigation-links {
+  display: inline-block;
+  margin: 0 50px;
+}
+
+.portfolio-navigation-link {
+  color: #c1c1c2;
+  text-decoration: none;
+  padding-bottom: 10px;
+}
+
+.portfolio-navigation-link:hover {
+  color: #3fb1fe;
+  background-image: url(images/HoverBar.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+.portfolio-list {
+  margin: 40px auto 0 auto;
+  width: 1200px;
+}
+
+.portfolio-example {
+  display: inline-block;
+  margin: 5px;
+  width: 380px;
+  height: 356px;
+}
+
+.portfolio-example:hover {
+  box-shadow: 0px 1px 8px gray;
+}
+
+.portfolio-example-link {
+  text-decoration: none;
+}
+
+.portfolio-pictute {
+  width: 380px;
+  height: 281px;
+}
+
+.portfolio-caption {
+  width: 380px;
+  height: 75px;
+  color: #c1c1c2;
+  box-shadow: 0px 1px 6px lightgray;
+}
+
+.portfolio-caption-text {
+  line-height: 75px;
+  vertical-align: middle;
+  padding-left: 30px;
+}
+
+.agency-PSD-template {
+  background-image: url(images/AgencyPSDTemplate.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.pure-vodka-branding {
+  background-image: url(images/PureVodkaBranding.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.web-design-portfolio {
+  background-image: url(images/WebDesignPortfolio.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.everest-logo {
+  background-image: url(images/EverestLogo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.poster-design {
+  background-image: url(images/PosterDesign.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.illustration-portfolio {
+  background-image: url(images/IllustrationPortfolio.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.show-more {
+  height: 60px;
+  width: 280px;
+  color: white;
+  background-color: #00a5ff;
+  font-size: 20px;
+  border-radius: 50px;
+  margin: 60px auto 80px auto;
+}
+
+.service-bottom-block {
+  width: 1400px;
+  display: flex;
+  justify-content: center;
+}
+
+.brands-title {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 70px;
+  padding-bottom: 30px;
+  background-image: url(images/TitleBar.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+.brands-list {
+  width: 1331px;
+  margin: 85px auto;
+}
+
+.brand {
+  display: inline-block;
+  margin: auto 35px;
+  width: 148px;
+  height: 97px;
+}
+
+.bakery {
+  background-image: url(images/Bakery.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.cavalier {
+  background-image: url(images/Cavalier.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.harvest {
+  background-image: url(images/Harvest.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.landlock {
+  background-image: url(images/Landlock.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.spectrum {
+  background-image: url(images/Spectrum.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.home-energy {
+  background-image: url(images/HomeEnergy.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.brand-link:hover {
+  opacity: .6;
 }
