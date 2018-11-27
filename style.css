@@ -345,6 +345,155 @@ header {
   background-size: contain;
 }
 
-.brand-link:hover {
+.brand-link {
+  display: block;
+  width: 148px;
+  height: 97px;
+}
+
+.brand:hover {
+  opacity: .6;
+}
+
+.saying-about-us {
+  position: relative;
+  background-color: #f5f6f8;
+}
+
+.about-us-title {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background-image: url(images/TitleBar.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+.people-list {
+  width: 515px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.human {
+  display: inline-block;
+}
+
+.boy {
+  width: 105px;
+  height: 105px;
+  border-radius: 50%;
+  background-image: url(images/Human1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: .6;
+}
+
+.woman {
+  width: 135px;
+  height: 135px;
+  border-radius: 50%;
+  background-image: url(images/Human2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.man {
+  width: 105px;
+  height: 105px;
+  border-radius: 50%;
+  background-image: url(images/Human3.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: .6;
+}
+
+.about-piople {
+  margin: 0 auto;
+  width: 575px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-piople-text {
+  color: #3a3f4b;
+  font-size: 25px;
+  text-align: center;
+}
+
+.linda-from {
+  display: block;
+  padding-top: 40px;
+  font-size: 20px;
+}
+
+.linda-link {
+  color: #3a3f4b;
+}
+
+.linda-link:hover {
+  opacity: .4;
+}
+
+.bullets {
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 75px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bullet {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-image: url(images/BlackBullet.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.bullet:first-child {
+  opacity: .4;
+}
+
+.bullet:nth-child(2) {
+  opacity: .4;
+}
+
+.flex-position-next-previous {
+  position: absolute;
+  width: 1400px;
+  justify-content: space-between;
+  height: 32px;
+  top: 50%;
+}
+
+.previous-human {
+  height: 32px;
+  width: 17px;
+  background-color: #f5f6f8;
+  background-image: url(images/Previous.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+  margin-left: 140px;
+}
+
+.next-human {
+  height: 32px;
+  width: 17px;
+  background-color: #f5f6f8;
+  background-image: url(images/Next.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+  margin-left: 1086px;
+}
+
+.previous-human:hover, .next-human:hover {
   opacity: .6;
 }
