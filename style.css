@@ -497,3 +497,97 @@ header {
 .previous-human:hover, .next-human:hover {
   opacity: .6;
 }
+
+.contact-us {
+  background-color: #3b404c;
+  color: white;
+}
+
+.contact-us-top-block {
+  margin: 0 115px 85px;
+  padding-top: 85px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-us-title {
+  font-size: 25px;
+  font-weight: normal;
+}
+
+.contact-us-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 485px;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.nav-item {
+  display: inline-block;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.contact-us-main-block {
+  margin: 0 115px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-us-left-block {
+  width: 300px;
+  list-style-type: none;
+}
+
+.contact-name {
+  font-size: 20px;
+  font-weight: normal;
+  padding-bottom: 30px;
+}
+
+.contact {
+  display: block;
+  font-size: 15px;
+  color: #8a8b8d;
+  margin-bottom: 80px;
+}
+
+.phone-numbers {
+  list-style-type: none;
+}
+
+.name-subject {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name, .subject {
+  width: 355px;
+  height: 50px;
+  background-color: #3b404c;
+  border: none;
+  border-bottom: 1px solid #8a8b8d;
+}
+
+.name:focus, .subject:focus {
+  outline:none;
+  border-bottom: 1px solid #00a5ff;
+}
+
+.name-label, .name, .subject-label, .subject {
+  display: block;
+  font-size: 20px;
+}
+
+.name, .subject {
+  margin-right: 10px;
+  color: #8a8b8d;
+}
