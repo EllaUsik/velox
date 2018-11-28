@@ -37,6 +37,12 @@ header {
   margin-top: 20px;
 }
 
+.logo-link {
+  display: block;
+  height: 38px;
+  width: 130px;
+}
+
 .navigation-menu {
   margin-top: 35px;
 }
@@ -285,6 +291,10 @@ header {
   font-size: 20px;
   border-radius: 50px;
   margin: 60px auto 80px auto;
+}
+
+.show-more:hover {
+  opacity: .6;
 }
 
 .service-bottom-block {
@@ -629,4 +639,63 @@ header {
   width: 280px;
   border: none;
   border-radius: 50px;
+}
+
+.send:hover {
+  opacity: .6;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-text {
+  display: block;
+  color: #8a8b8d;
+  font-size: 13px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.footer-right-block {
+  display: flex;
+  justify-content: space-between;
+  width: 160px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.social-networks, .social-network-link {
+  display: inline-block;
+  width: 30px;
+  height: 31px;
+}
+
+.fb {
+  background-image: url(images/FB.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.twitter {
+  background-image: url(images/Twitter.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.composite-path {
+  background-image: url(images/CompositePath.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.linkedin {
+  background-image: url(images/Linkedin.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.social-networks:hover {
+  opacity: .6;
 }
