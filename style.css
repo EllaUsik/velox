@@ -1,0 +1,701 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+.clearfix {
+  clear: both;
+}
+.wrapper {
+  width: 1400px;
+  font-family: sans-serif;
+  font-style: normal;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content-space {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+header {
+  background-image: url(images/HeaderBackground.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.header-flex-position {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  background-image: url(images/Logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 38px;
+  width: 130px;
+  margin-top: 20px;
+}
+
+.logo-link {
+  display: block;
+  height: 38px;
+  width: 130px;
+}
+
+.navigation-menu {
+  margin-top: 35px;
+}
+
+.navigation-menu-links {
+  display: inline-block;
+  margin-right: 45px;
+}
+
+.navigation-menu-links:last-child {
+  margin-right: 0;
+}
+
+.navigation-menu-link {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+.navigation-menu-link:hover {
+  text-decoration: underline;
+}
+
+.header-main-block {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.header-title {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 290px;
+}
+
+.header-text {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.header-button {
+  width: 320px;
+  height: 70px;
+  margin-top: 90px;
+  margin-bottom: 70px;
+  border-radius: 50px;
+  color: white;
+  font-size: 20px;
+  background-color: #00a5ff;
+  border: none;
+}
+
+.header-button:hover {
+  opacity: .6;
+}
+
+.services-title {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 70px;
+  padding-bottom: 30px;
+  background-image: url(images/TitleBar.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+.services-list {
+  width: 1215px;
+  margin: 90px auto;
+}
+
+.service {
+  display: inline-block;
+  margin: 0 20px;
+  width: 260px;
+  text-align: center;
+}
+
+.service-shape {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #f5f6f8;
+  margin: 0 auto;
+}
+
+.logo-design {
+  background-image: url(images/LogoDesign.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.web-design {
+  background-image: url(images/WebDesign.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.branding {
+  background-image: url(images/Branding.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.illustrations {
+  background-image: url(images/Illustrations.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.service-name {
+  display: block;
+  font-size: 20px;
+  margin: 20px auto;
+}
+
+.black-line {
+  margin: auto;
+}
+
+.service-description {
+  color: #b6b6b6;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.portfolio {
+  background-color: #f5f6f8;
+}
+
+.portfolio-title {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  background-image: url(images/TitleBar.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+.portfolio-navigation {
+  width: 905px;
+  margin: 40px auto;
+}
+
+.portfolio-navigation-links {
+  display: inline-block;
+  margin: 0 50px;
+}
+
+.portfolio-navigation-link {
+  color: #c1c1c2;
+  text-decoration: none;
+  padding-bottom: 10px;
+}
+
+.portfolio-navigation-link:hover {
+  color: #3fb1fe;
+  background-image: url(images/HoverBar.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+.portfolio-list {
+  margin: 40px auto 0 auto;
+  width: 1200px;
+}
+
+.portfolio-example {
+  display: inline-block;
+  margin: 5px;
+  width: 380px;
+  height: 356px;
+}
+
+.portfolio-example:hover {
+  box-shadow: 0px 1px 8px gray;
+}
+
+.portfolio-example-link {
+  text-decoration: none;
+}
+
+.portfolio-pictute {
+  width: 380px;
+  height: 281px;
+}
+
+.portfolio-caption {
+  width: 380px;
+  height: 75px;
+  color: #c1c1c2;
+  box-shadow: 0px 1px 6px lightgray;
+}
+
+.portfolio-caption-text {
+  line-height: 75px;
+  vertical-align: middle;
+  padding-left: 30px;
+}
+
+.agency-PSD-template {
+  background-image: url(images/AgencyPSDTemplate.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.pure-vodka-branding {
+  background-image: url(images/PureVodkaBranding.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.web-design-portfolio {
+  background-image: url(images/WebDesignPortfolio.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.everest-logo {
+  background-image: url(images/EverestLogo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.poster-design {
+  background-image: url(images/PosterDesign.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.illustration-portfolio {
+  background-image: url(images/IllustrationPortfolio.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.show-more {
+  height: 60px;
+  width: 280px;
+  color: white;
+  background-color: #00a5ff;
+  font-size: 20px;
+  border-radius: 50px;
+  margin: 60px auto 80px auto;
+}
+
+.show-more:hover {
+  opacity: .6;
+}
+
+.service-bottom-block {
+  display: flex;
+  justify-content: center;
+}
+
+.brands-title {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 70px;
+  padding-bottom: 30px;
+  background-image: url(images/TitleBar.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+.brands-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 85px auto;
+}
+
+.brand {
+  list-style-type: none;
+  width: 148px;
+  height: 97px;
+}
+
+.brand:last-child {
+  margin-right: 0;
+}
+
+.bakery {
+  background-image: url(images/Bakery.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.cavalier {
+  background-image: url(images/Cavalier.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.harvest {
+  background-image: url(images/Harvest.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.landlock {
+  background-image: url(images/Landlock.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.spectrum {
+  background-image: url(images/Spectrum.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.home-energy {
+  background-image: url(images/HomeEnergy.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.brand-link {
+  display: block;
+  width: 148px;
+  height: 97px;
+}
+
+.brand:hover {
+  opacity: .6;
+}
+
+.saying-about-us {
+  position: relative;
+  background-color: #f5f6f8;
+}
+
+.about-us-title {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background-image: url(images/TitleBar.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+.people-list {
+  width: 515px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.human {
+  display: inline-block;
+}
+
+.boy {
+  width: 105px;
+  height: 105px;
+  border-radius: 50%;
+  background-image: url(images/Human1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: .6;
+}
+
+.woman {
+  width: 135px;
+  height: 135px;
+  border-radius: 50%;
+  background-image: url(images/Human2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.man {
+  width: 105px;
+  height: 105px;
+  border-radius: 50%;
+  background-image: url(images/Human3.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: .6;
+}
+
+.about-piople {
+  margin: 0 auto;
+  width: 575px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-piople-text {
+  color: #3a3f4b;
+  font-size: 25px;
+  text-align: center;
+}
+
+.linda-from {
+  display: block;
+  padding-top: 40px;
+  font-size: 20px;
+}
+
+.linda-link {
+  color: #3a3f4b;
+}
+
+.linda-link:hover {
+  opacity: .4;
+}
+
+.bullets {
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 75px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bullet {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-image: url(images/BlackBullet.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.bullet:first-child {
+  opacity: .4;
+}
+
+.bullet:nth-child(2) {
+  opacity: .4;
+}
+
+.gallery-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.previous-human {
+  height: 32px;
+  width: 17px;
+  background-color: #f5f6f8;
+  background-image: url(images/Previous.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+}
+
+.next-human {
+  height: 32px;
+  width: 17px;
+  background-color: #f5f6f8;
+  background-image: url(images/Next.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+}
+
+.previous-human:hover, .next-human:hover {
+  opacity: .6;
+}
+
+.contact-us {
+  background-color: #3b404c;
+  color: white;
+}
+
+.contact-us-top-block {
+  margin-bottom: 85px;
+  padding-top: 85px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-us-title {
+  font-size: 25px;
+  font-weight: normal;
+}
+
+.contact-us-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 485px;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.nav-item {
+  display: inline-block;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.contact-us-main-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-us-left-block {
+  width: 300px;
+  list-style-type: none;
+}
+
+.contact-name {
+  font-size: 20px;
+  font-weight: normal;
+  padding-bottom: 30px;
+}
+
+.contact {
+  display: block;
+  font-size: 15px;
+  color: #8a8b8d;
+  margin-bottom: 80px;
+}
+
+.phone-numbers {
+  list-style-type: none;
+}
+
+.name-subject {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name, .subject {
+  width: 330px;
+  height: 50px;
+  background-color: #3b404c;
+  border: none;
+  border-bottom: 1px solid #8a8b8d;
+}
+
+.name:focus, .subject:focus {
+  outline:none;
+  border-bottom: 1px solid #00a5ff;
+}
+
+.name-label, .name, .subject-label, .subject {
+  display: block;
+  font-size: 20px;
+}
+
+.name, .subject {
+  margin-right: 10px;
+  color: #8a8b8d;
+}
+
+.message-label, .message {
+  display: block;
+  font-size: 20px;
+}
+
+.message-label {
+  margin-top: 50px;
+}
+
+.message {
+  padding-top: 20px;
+  color: white;
+  background-color: #3b404c;
+  border: none;
+  border-bottom: 1px solid #8a8b8d;
+  height: 115px;
+  width: 770px;
+}
+
+.message:focus {
+  outline:none;
+  border-bottom: 1px solid #00a5ff;
+}
+
+.send {
+  margin-top: 45px;
+  background-color: #00a5ff;
+  color: white;
+  font-size: 20px;
+  height: 65px;
+  width: 280px;
+  border: none;
+  border-radius: 50px;
+}
+
+.send:hover {
+  opacity: .6;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-text {
+  display: block;
+  color: #8a8b8d;
+  font-size: 13px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.footer-right-block {
+  display: flex;
+  justify-content: space-between;
+  width: 160px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.social-networks, .social-network-link {
+  display: inline-block;
+  width: 30px;
+  height: 31px;
+}
+
+.fb {
+  background-image: url(images/FB.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.twitter {
+  background-image: url(images/Twitter.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.composite-path {
+  background-image: url(images/CompositePath.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.linkedin {
+  background-image: url(images/Linkedin.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.social-networks:hover {
+  opacity: .6;
+}
