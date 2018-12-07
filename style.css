@@ -723,6 +723,23 @@ header {
     display: flex;
     justify-content: space-around;
   }
+
+  .services {
+    width: auto;
+  }
+
+  .services-list {
+    height: auto;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .service {
+    margin-bottom: 15px;
+  }
+
+
 }
 
 @media only screen and (min-width: 320px) and (max-width: 800px) {
@@ -733,9 +750,9 @@ header {
   }
 
   .content-space {
-    margin: 0 10px;
-    min-width: 320px;
+    margin: 10px 10px;
     width: auto;
+    padding-bottom: 10px;
   }
 
   header {
@@ -778,8 +795,13 @@ header {
     font-size: 20px;
   }
 
+  .header-main-block {
+    width: 300px;
+    height: auto;
+  }
+
   .header-title {
-    padding-top: 30px;
+    padding-top: 0;
   }
 
   .header-text {
@@ -787,7 +809,24 @@ header {
   }
 
   .header-button {
-    margin-bottom: 30px;
+    display: block;
+    margin: 10px auto;
+    width: 300px;
+  }
+
+  .services {
+    width: auto;
+  }
+
+  .services-list {
+    display: block;
+    height: auto;
+    width: 300px;
+    margin: 10px auto;
+  }
+
+  .service {
+    margin-bottom: 15px;
   }
 
 }
