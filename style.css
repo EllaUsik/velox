@@ -432,14 +432,14 @@ header {
   opacity: .6;
 }
 
-.about-piople {
+.about-people {
   margin: 0 auto;
   width: 575px;
   display: flex;
   justify-content: center;
 }
 
-.about-piople-text {
+.about-people-text {
   color: #3a3f4b;
   font-size: 25px;
   text-align: center;
@@ -702,7 +702,7 @@ header {
   opacity: .6;
 }
 
-@media only screen and (min-width: 800px) and (max-width: 1400px) {
+@media only screen and (min-width: 800px) and (max-width: 1200px) {
   .wrapper {
     max-width: 1400px;
     min-width: 800px;
@@ -763,6 +763,38 @@ header {
   .portfolio-example {
     margin: 3px;
   }
+
+  .brands-list {
+    display: block;
+    width: 500px;
+    column-count: 2;
+  }
+
+  .brand {
+    display: block;
+    width: 150px;
+    margin: 10px 50px;
+  }
+
+  .contact-us-main-block {
+    width: auto;
+  }
+
+  .contact-us-left-block {
+    width: 300px;
+  }
+
+  .form-for-contact {
+    width: 400px;
+  }
+
+  .name, .subject {
+    width: 150px
+  }
+
+  .message {
+    width: 400px;
+  }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 800px) {
@@ -773,7 +805,7 @@ header {
   }
 
   .content-space {
-    margin: 10px 10px;
+    margin: 0 10px;
     width: auto;
     padding-bottom: 10px;
   }
@@ -870,6 +902,116 @@ header {
 
   .show-more {
     margin: 0 auto 50px;
+  }
+
+  .brands-list {
+    display: block;
+    width: 300px;
+    column-count: 2;
+  }
+
+  .brand {
+    display: block;
+    width: 150px;
+    margin: 0;
+  }
+
+  .gallery {
+    width: 300px;
+  }
+
+  .people-list {
+    width: 300px;
+    justify-content: center;
+  }
+
+  .boy, .man{
+    display: none;
+  }
+
+  .about-people {
+    width: auto;
+  }
+
+  .about-people-text {
+    width: 300px;
+  }
+
+  .previous-human {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+  }
+
+  .next-human {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+  }
+
+  .contact-us-top-block {
+    display: block;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .contact-us-title {
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+
+  .contact-us-nav {
+    display: inline-block;
+    text-align: center;
+    width: auto;
+  }
+
+  .nav-item {
+    list-style-type: none;
+    width: 300px;
+    text-align: center;
+    margin: 10px auto;
+    padding: 0;
+  }
+
+  .contact-us-main-block {
+    width: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .contact-us-left-block {
+    width: 300px;
+  }
+
+  .contacts {
+    text-align: center;
+  }
+
+  .form-for-contact {
+    width: 300px;
+    display: block;
+  }
+
+  .name, .subject {
+    width: 120px
+  }
+
+  .message {
+    width: 300px;
+  }
+
+  .center-position-for-mobile {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-flex {
+    display: block;
+  }
+
+  .footer-right-block {
+    padding: 0;
   }
 
 }
